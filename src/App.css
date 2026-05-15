@@ -1,0 +1,113 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  background: #0a0e14;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 100vh;
+  padding: 24px 32px;
+}
+
+h1 {
+  margin: 0 0 4px 0;
+  font-size: 32px;
+  color: #ffc131;
+  letter-spacing: 0.5px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  font-family: inherit;
+  font-size: 15px;
+  padding: 8px 12px;
+  border: 1px solid #2a3142;
+  border-radius: 6px;
+  background: #131826;
+  color: #ffffff;
+  outline: none;
+}
+
+input:focus {
+  border-color: #ffc131;
+}
+
+button {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 18px;
+  border: 1px solid #ffc131;
+  border-radius: 6px;
+  background: transparent;
+  color: #ffc131;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(255, 193, 49, 0.12);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow-y: auto;
+}
+
+.list li {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: #131826;
+  border: 1px solid #1f2533;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.list li:hover {
+  border-color: #ffc131;
+}
+
+.title {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.url {
+  color: #8a93a8;
+  font-size: 13px;
+  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.visited {
+  color: #5ec07f;
+  font-size: 13px;
+  min-width: 80px;
+  text-align: right;
+}
