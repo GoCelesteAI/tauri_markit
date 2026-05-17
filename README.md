@@ -5,7 +5,7 @@ Demo app for **Episode 6: Add SQLite + Migrations to Tauri 2 — Plugin SQL Tuto
 A bookmark manager built on Tauri 2 + React + TypeScript with a real SQLite database. `tauri-plugin-sql` ships SQLite, a migration system, and a JS API that runs from your React code — no native drivers, no bundling pain, no separate database server.
 
 - **Watch on YouTube:** https://www.youtube.com/watch?v=kQU3kdfAXpI
-- **Read on Codegiz:** https://codegiz.com/blog/tauri-patterns-episode-6-add-sqlite-migrations-to-tauri-2
+- **Read on Codegiz:** https://www.codegiz.com/blog/tauri-patterns-episode-6-add-sqlite-migrations-to-tauri-2/
 - **Series index:** https://github.com/GoCelesteAI/tauri-patterns
 
 ## What this app shows
